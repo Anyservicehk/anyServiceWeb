@@ -1,0 +1,587 @@
+:root {
+  --primary-white: #ffffff;
+  --primary-black: #000000;
+  --primary-red: #d81222;
+  --primary-green: #26989f;
+  --primary-violet: #260b43;
+  --gray-1: #212121;
+  --gray-2: #595959;
+  --gray-3: #979797;
+  --gray-4: #dfdfdf;
+  --gray-5: #efefef;
+  --gray-6: #f8f8f8;
+  --success: #289c56;
+  --warning: #dd8c32;
+  --error: #c83449;
+  --notification: #6265b1;
+  --links: #1b79de;
+  --login: #4285f4;
+}
+
+/* ================================================================================== */
+/*                                         Flex                                       */
+/* ================================================================================== */
+
+.w-flex {
+  display: flex;
+}
+
+.w-flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.w-flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.w-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.w-flex-end {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.w-flex-text-end {
+  display: flex;
+  text-align: end;
+  justify-content: flex-end;
+}
+
+.w-flex-col-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.w-flex-center-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.w-flex-start {
+  display: flex;
+  align-items: flex-start;
+}
+
+.w-align-center {
+  display: flex;
+  align-items: center;
+}
+
+.w-justify-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.w-flex-1 {
+  flex-grow: 1;
+}
+
+/* ================================================================================== */
+/*                                       Overflow                                     */
+/* ================================================================================== */
+
+.w-overflow-scroll {
+  overflow: scroll;
+}
+.w-overflow-hidden {
+  overflow: hidden;
+}
+
+/* ================================================================================== */
+/*                                       Widths                                       */
+/* ================================================================================== */
+.w-width-1_10 {
+  width: 10%;
+}
+.w-width-2_10 {
+  width: 20%;
+}
+.w-width-3_10 {
+  width: 30%;
+}
+.w-width-4_10 {
+  width: 40%;
+}
+.w-width-5_10 {
+  width: 50%;
+}
+.w-width-6_10 {
+  width: 60%;
+}
+.w-width-7_10 {
+  width: 70%;
+}
+.w-width-8_10 {
+  width: 90%;
+}
+.w-width-full {
+  width: 100%;
+}
+
+/* ================================================================================== */
+/*                                       Min Width                                    */
+/* ================================================================================== */
+
+.w-min-width-500 {
+  min-width: 500px;
+}
+
+/* ================================================================================== */
+/*                                       Min Height                                   */
+/* ================================================================================== */
+
+.w-min-height-250 {
+  min-height: 250px;
+}
+
+/* ================================================================================== */
+/*                                       Max Height                                   */
+/* ================================================================================== */
+
+.w-max-height-250 {
+  max-height: 250px;
+}
+
+/* ================================================================================== */
+/*                                       Heights                                      */
+/* ================================================================================== */
+
+.w-height-full {
+  height: 100%;
+}
+
+/* ================================================================================== */
+/*                                        Gaps                                        */
+/* ================================================================================== */
+
+.w-gap-20 {
+  gap: 20px;
+}
+
+.w-gap-8 {
+  gap: 8px;
+}
+
+.w-gap-4 {
+  gap: 4px;
+}
+
+/* ================================================================================== */
+/*                                      Positions                                     */
+/* ================================================================================== */
+
+.w-relative {
+  position: relative;
+}
+
+.w-absolute {
+  position: absolute;
+}
+
+/* ================================================================================== */
+/*                                     Text Colors                                    */
+/* ================================================================================== */
+
+.w-c-gray-1 {
+  color: var(--gray-1);
+}
+
+.w-c-gray-2 {
+  color: var(--gray-2);
+}
+
+.w-c-gray-4 {
+  color: var(--gray-4);
+}
+.w-c-gray-3 {
+  color: var(--gray-3);
+}
+
+.w-c-gray-4 {
+  color: var(--gray-4);
+}
+
+.w-c-success {
+  color: var(--success);
+}
+
+.w-c-error {
+  color: var(--error);
+}
+
+.w-c-links {
+  color: var(--links);
+}
+
+/* ================================================================================== */
+/*                                  Background Colors                                 */
+/* ================================================================================== */
+
+.w-bg-gray-1 {
+  background-color: var(--gray-1);
+}
+
+.w-bg-gray-2 {
+  background-color: var(--gray-2);
+}
+
+.w-bg-gray-3 {
+  background-color: var(--gray-3);
+}
+
+.w-bg-gray-4 {
+  background-color: var(--gray-4);
+}
+
+.w-bg-gray-5 {
+  background-color: var(--gray-5);
+}
+
+.w-bg-gray-6 {
+  background-color: var(--gray-6);
+}
+
+/* ================================================================================== */
+/*                                      Margins                                       */
+/* ================================================================================== */
+
+.w-m-20 {
+  margin: 20px;
+}
+
+.w-mt-20 {
+  margin-top: 20px;
+}
+
+.w-mr-20 {
+  margin-right: 20px;
+}
+
+.w-mb-20 {
+  margin-bottom: 20px;
+}
+
+.w-ml-20 {
+  margin-left: 20px;
+}
+
+.w-m-20 {
+  margin: 4px;
+}
+
+.w-mt-4 {
+  margin-top: 4px;
+}
+
+.w-mr-4 {
+  margin-right: 4px;
+}
+
+.w-mb-4 {
+  margin-bottom: 4px;
+}
+
+.w-ml-4 {
+  margin-left: 4px;
+}
+
+/* ================================================================================== */
+/*                                     Paddings                                       */
+/* ================================================================================== */
+
+.w-p-20 {
+  padding: 20px;
+}
+
+.w-pt-20 {
+  padding-top: 20px;
+}
+
+.w-pr-20 {
+  padding-right: 20px;
+}
+
+.w-pb-20 {
+  padding-bottom: 20px;
+}
+
+.w-pl-20 {
+  padding-left: 20px;
+}
+
+.w-px-20 {
+  padding-block: 20px;
+}
+
+.w-py-20 {
+  padding-inline: 20px;
+}
+
+.w-p-16 {
+  padding: 16px;
+}
+
+.w-pt-16 {
+  padding-top: 16px;
+}
+
+.w-pr-16 {
+  padding-right: 16px;
+}
+
+.w-pb-16 {
+  padding-bottom: 16px;
+}
+
+.w-pl-16 {
+  padding-left: 16px;
+}
+
+.w-px-16 {
+  padding-block: 16px;
+}
+
+.w-py-16 {
+  padding-inline: 16px;
+}
+
+/* ================================================================================== */
+/*                                        Borders                                     */
+/* ================================================================================== */
+
+.w-b-1 {
+  border: 1px solid rgb(33, 33, 33, 0.1);
+}
+
+.w-bt-1 {
+  border-top: 1px solid rgb(33, 33, 33, 0.1);
+}
+
+.w-br-1 {
+  border-right: 1px solid rgb(33, 33, 33, 0.1);
+}
+
+.w-bb-1 {
+  border-bottom: 1px solid rgb(33, 33, 33, 0.1);
+}
+
+.w-bl-1 {
+  border-left: 1px solid rgb(33, 33, 33, 0.1);
+}
+
+/* ================================================================================== */
+/*                                        Borders                                     */
+/* ================================================================================== */
+
+.w-border-radius-4 {
+  border-radius: 4px;
+}
+
+.w-border-radius-8 {
+  border-radius: 8px;
+}
+
+.w-border-radius-12 {
+  border-radius: 12px;
+}
+
+.w-border-radius-16 {
+  border-radius: 16px;
+}
+
+.w-border-radius-20 {
+  border-radius: 20px;
+}
+
+/* ================================================================================== */
+/*                                Display Font Styles                                 */
+/* ================================================================================== */
+
+.w-display-40R {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.w-display-40M {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.w-display-40SB {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.w-display-32R {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.w-display-32M {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.w-display-32SB {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+/* ================================================================================== */
+/*                                Heading Font Styles                                 */
+/* ================================================================================== */
+
+.w-heading-28R {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+}
+
+.w-heading-28M {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+}
+
+.w-heading-28SB {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+}
+
+.w-heading-22R {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.w-heading-22M {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.w-heading-22SB {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.w-heading-16R {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.w-heading-16M {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.w-heading-16SB {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* ================================================================================== */
+/*                                  Text Font Styles                                  */
+/* ================================================================================== */
+
+.w-text-14R {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.w-text-14M {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.w-text-14SB {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.w-text-12R {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.w-text-12M {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.w-text-12SB {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.w-color-g3 {
+  color: var(--gray-3);
+}
