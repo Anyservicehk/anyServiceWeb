@@ -7,9 +7,7 @@ const Login = () => {
       <div className="card-section">
         <div className="form-section">
           <div className="header">Create an account</div>
-          <div className="sub-title">
-            Let's get started with your 30 day free trial.
-          </div>
+          <div className="sub-title">Welcome to AnyService</div>
           <div>
             <label htmlFor="userName" className="input-name">
               Name
