@@ -41,7 +41,7 @@ const Login = () => {
             </a>
           </div>
           <div className="btn-2">
-            <img className="g-icon" src="/assets/icons8-google-48.png" />
+            <img className="g-icon" src="/assets/icons8-google-48.png" alt="" />
             <button>Sign up with google</button>
           </div>
         </div>
@@ -49,6 +49,7 @@ const Login = () => {
           <img
             className="img-tag"
             src="/assets/amith-nair-iHJ7xouUyXs-unsplash.jpg"
+            alt=""
           />
         </div>
       </div>
